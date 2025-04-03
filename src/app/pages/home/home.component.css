@@ -36,9 +36,9 @@
     color: #fff;
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Espacio entre elementos */
+    justify-content: space-between; 
     padding: 0 16px;
     height: 56px;
     font: 500 20px/32px Roboto, "Helvetica Neue", sans-serif;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Agrega sombra para mejor visibilidad */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
 }

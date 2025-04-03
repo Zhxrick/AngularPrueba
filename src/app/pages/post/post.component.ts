@@ -23,7 +23,7 @@ import { FormsModule } from '@angular/forms'
 
 export class PostComponent implements OnInit {
   posts: Post[] = []; 
-  selectedPost: Post | null = null;
+  selectedPost: Post = new Post()
   displayEditDialog = false; 
   displayDialog: boolean = false; 
   visible = false; 
@@ -99,7 +99,3 @@ export class PostComponent implements OnInit {
 
 
   
-
-
-
-

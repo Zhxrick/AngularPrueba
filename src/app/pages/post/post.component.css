@@ -1,0 +1,12 @@
+p-table th, 
+p-table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px; 
+}
